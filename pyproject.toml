@@ -1,0 +1,19 @@
+[project]
+name = "compute-perimeter-for-shape-index"
+version = "1.0.0"
+description = "Compute conversion factors between continuous and discrete perimeters for determining the shape-index." 
+readme = "readme.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE.txt"}
+authors = [
+  {email = "calvin.bakker@proton.me"},
+  {name = "Calvin Casper Bakker"}
+]
+
+dependencies = [
+"numpy",
+"scipy",
+"matplotlib",
+"cmasher"
+]
+
