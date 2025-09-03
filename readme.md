@@ -1,5 +1,7 @@
 # `compute-perimeter-for-shape-index`
-In this notebook the conversion factor is sought for to compare the shape-index computed by the perimeter and area as $$\rho = L/\sqrt{A}$$ with the perimeter computed by the Moore neighbourhood for discrete two-dimensional densities. 
+In this notebook the conversion factor is sought for to compare the shape-index computed by the perimeter and area as 
+$$\rho = L/\sqrt{A}$$ 
+with the perimeter computed by the Moore neighbourhood for discrete two-dimensional densities. 
 
 ## Goal
 Let's say we have a cellular Potts model [1] simulation where the perimeter is computed for cells using the Moore neighbourhood method (MNM) [2], then this perimeter cannot be used to determine the shape index of the cells [3] directly. The MNM perimeter is a count of the pixels that are part of the discrete boundary and therefore needs a conversion to the continuous (Euclidean) perimeter. By comparing the exact perimeters calculated for random shapes, and then discretizing these shapes into pixels and computing the MNM perimeter, we hope to find a conversion factor that allows us to map one into the other. If this works, we can determine a literature-consistent shape-index for discrete shapes such as cellular Potts model cells.
