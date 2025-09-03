@@ -1,5 +1,5 @@
 [project]
-name = "compute-perimeter-for-shape-index"
+name = "conversion-factor-for-shape-index"
 version = "1.0.0"
 description = "Compute conversion factors between continuous and discrete perimeters for determining the shape-index." 
 readme = "readme.md"

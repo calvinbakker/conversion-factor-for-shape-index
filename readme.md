@@ -1,8 +1,8 @@
-# 📃 Notebook: `compute-perimeter-for-shape-index`
+# 📃 Notebook: `conversion-factor-for-shape-index`
 
 In this notebook, the conversion factor is sought to compare the shape-index computed by the perimeter and area as  
 $$\rho = \frac{L}{\sqrt{A}}$$
-with the perimeter computed by the Moore neighbourhood for discrete two-dimensional densities.
+with the perimeter computed by the Moore neighbourhood for discrete two-dimensional shapes.
 
 ## 🎯 Goal
 
