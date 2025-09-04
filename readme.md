@@ -1,7 +1,8 @@
 # 📃 Notebook: `conversion-factor-for-shape-index`
 
-In this notebook, the conversion factor is sought to compare the shape-index computed by the perimeter and area as  
+In this notebook, the conversion factor is sought to compare the shape-index computed by the perimeter-length $L$ and area $A$ as  
 $$\rho = \frac{L}{\sqrt{A}}$$
+
 with the perimeter computed by the Moore neighbourhood for discrete two-dimensional shapes.
 
 ## 🎯 Goal
@@ -55,3 +56,7 @@ The notebook computes empirical conversion factors that map discrete perimeter-d
 [3] 🔬 A paper where this quantity is relevant for cells is: [Role of cell deformability in the two-dimensional melting of biological tissues](https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.045602), by Yan-Wei Li and Massimo Pica Ciamarra.
 
 [4] 🧮 An established numerical integration method. See: [Wikipedia](https://en.wikipedia.org/wiki/Simpson%27s_rule).
+
+## 🔎 Further reading
+
+See the following paper for more information about cellular Potts model neighbourhood choices (like the Moore neighbourhood): [The biophysical nature of cells: potential cell behaviours revealed by analytical and computational studies of cell surface mechanics](https://doi.org/10.1186/s13628-015-0022-x), by Ramiro Magno, Verônica A Grieneisen & Athanasius FM Marée.
