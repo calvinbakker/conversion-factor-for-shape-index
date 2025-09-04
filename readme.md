@@ -27,7 +27,7 @@ This notebook presents a pipeline to estimate conversion factors between continu
    - The discrete neighbourhood method for the perimeter is used to compute the perimeter for different boundary orders (single pixel, Moore neighbourhood (8 pixels), and a larger neighbourhood (20 pixels)).
 
 4. 📈 **Statistics and conversion factor**  
-   - For each random shape, we compute the continuous shape-index $\rho = \frac{L}{\sqrt{A}}$ and the corresponding discrete shape-index using MNM-derived boundaries.  
+   - For each random shape, we compute the continuous shape-index $\rho = \frac{L}{\sqrt{A}}$ and the corresponding discrete shape-index for the three different boundary orders.  
    - Repeating the experiment `samples` times produces distributions of the ratio between continuous and discrete shape-indices.  
    - The mean and standard deviation of these ratios are presented, where the mean is used as the empirical conversion factor.
 
