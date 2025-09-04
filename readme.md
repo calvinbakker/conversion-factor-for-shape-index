@@ -37,6 +37,8 @@ The notebook can be found in the `./notebooks/` folder. The functions used in th
 
 ## 📊 Results
 
+![example_results](data/example_results.png)
+
 The notebook computes empirical conversion factors that map discrete perimeter-derived shape indices to continuous (Euclidean) shape indices as used in the literature. Below is a summary of the results and their interpretation:
 
 - **🔢 Conversion factor**: For each boundary order (0th, 1st, 2nd), we compute the mean of the ratio between the continuous shape-index and the discrete shape-index. The mean is reported in the histograms as the estimated conversion factor.
