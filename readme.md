@@ -43,7 +43,7 @@ The notebook computes empirical conversion factors that map discrete perimeter-d
 
 - **🔢 Conversion factor**: For each boundary order (0th, 1st, 2nd), we compute the mean of the ratio between the continuous shape-index and the discrete shape-index. The mean is reported in the histograms as the estimated conversion factor.
 - **📏 Approximation**: Both the absolute standard deviation and the normalized standard deviation (std / mean) for each ratio distribution are given. The normalized value provides a scale-independent measure of spread and is therefore *the* indicator for which discrete method is the most precise compared to the continuous case.
-- **✅ Recommendation**: As the 1st-order computation is implemented in current software [2], and it is found that the 2nd-order computation does not decrease the normalized standard deviation, the 1st-order Moore neighbourhood method seems to be the best to use.
+- **✅ Recommendation**: As the 1st-order computation is implemented in current software [2], and it is found that the 2nd-order computation does not decrease the normalized standard deviation as much, the 1st-order Moore neighbourhood method seems to be the best to use. There seem to be dimishing returns in precision when increasing the computational cost (larger neighbourhoods).
 - **⚠️ Limitations**:  
   - **Grid resolution**: The conversion factor depends on `pixel_dimension`. Coarser grids introduce discretization errors and larger variance. Consider calibrating conversion factors for the cell sizes used in simulations.  
   - **Shape ensemble**: The experiment samples random Fourier shapes. Conversion factors may differ for shape ensembles with very different statistics (e.g., highly elongated).  
