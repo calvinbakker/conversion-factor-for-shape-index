@@ -53,7 +53,7 @@ The notebook computes empirical conversion factors that map discrete perimeter-d
 
 [1] The paper that introduced the model: [Simulation of biological cell sorting using a two-dimensional extended Potts model](https://doi.org/10.1103/PhysRevLett.69.2013), by François Graner and James A. Glazier.
 
-[2] This is a method used in many CPM implementations. For example: [Morpheus](https://morpheus.gitlab.io/), [Artistoo](https://artistoo.net/), [gpu-cpm](https://arxiv.org/abs/2312.09317).
+[2] This is a method used in many cellular Potts model implementations. For example: [Morpheus](https://morpheus.gitlab.io/), [Artistoo](https://artistoo.net/), [gpu-cpm](https://arxiv.org/abs/2312.09317).
 
 [3] A paper where this quantity is relevant for cells is: [Role of cell deformability in the two-dimensional melting of biological tissues](https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.045602), by Yan-Wei Li and Massimo Pica Ciamarra.
 
